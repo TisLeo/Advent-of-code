@@ -13,8 +13,8 @@ def part1():
     for i in lines:
         i = i.replace("\n", '')
         first, second = i[:len(i)//2], i[len(i)//2:]
-        common_char = ''
 
+        common_char = ''
         for c in first:
             if c in second:
                 common_char = c
@@ -38,7 +38,6 @@ def part2():
     i = 0
 
     while i <= len(lines)-3:
-        print(i)
         group = lines[i:i+3]
         for j in range(0, len(group)):
             group[j] = group[j].replace("\n", '')
