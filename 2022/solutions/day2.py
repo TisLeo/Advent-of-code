@@ -93,7 +93,7 @@ def part2():
 
         total += round_total
     
-    print("Total points part2:",total)
+    print("Total points part2:", total)
 
 part1()
 part2()
