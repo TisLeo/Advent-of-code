@@ -27,7 +27,7 @@ def part1():
         
         total += priority
 
-    print("Total part1:", total)
+    print("Total part 1:", total)
 
 # Group every other 3 lines
 # Find common character (the badge)
@@ -56,7 +56,7 @@ def part2():
         total += priority
         i += 3
 
-    print("Total part2:", total) # ANSWER
+    print("Total part 2:", total) # ANSWER
 
 part1()
 part2()

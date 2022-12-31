@@ -51,7 +51,7 @@ def part1():
         
         total += round_total
 
-    print("Total points part1:", total) # ANSWER
+    print("Total points part 1:", total) # ANSWER
 
 # Separate each round
 # Match whether i need to lose, draw or win with opponent's go
@@ -93,7 +93,7 @@ def part2():
 
         total += round_total
     
-    print("Total points part2:", total)
+    print("Total points part 2:", total)
 
 part1()
 part2()
